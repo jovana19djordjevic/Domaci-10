@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.heroSection {
+	background-image: url(../slike/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 80vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+.heading1 {
+	font-size: 56px;
+}
+
+.carsWraper {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.car {
+	width: 250px;
+}
+.imgCar {
+	width: 250px;
+	height: 160px;
+}
+
+.info {
+	display: flex;
+	gap: 18px;
+}
+.price {
+	display: flex;
+	justify-content: space-between;
+	color: red;
+	margin-top: 8px;
+}
+
+.textW {
+	margin-top: 8px;
+}
+
+.color {
+	color: grey;
+}
